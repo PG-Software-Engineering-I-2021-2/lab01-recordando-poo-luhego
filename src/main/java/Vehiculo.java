@@ -1,3 +1,5 @@
+package main.java;
+
 public class Vehiculo {
     protected double capacidadCombustible;
     protected double cantidadCombustible;
@@ -19,7 +21,7 @@ public class Vehiculo {
             System.out.println("Automovil necesita reabastecimiento de combustible");
         } else {
             this.cantidadCombustible -= combustibleRequerido;
-            System.out.println("Autmovil viajo " + distancia + " km y aun tiene " + this.cantidadCombustible + " de combustible");
+            System.out.println("Automovil viajo " + distancia + " km y aun tiene " + this.cantidadCombustible + " de combustible");
         }
     }
 }
